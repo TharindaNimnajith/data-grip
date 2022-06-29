@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@localhost" uuid="5a76b557-d75a-4dab-9ef9-d5d3071dd90b">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="User Data Source" uuid="a9bb3b80-deb2-4a5e-98c0-2035559f31ff">
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>java.sql.Driver</jdbc-driver>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost" uuid="48d8670a-8259-4d97-88ea-8eb3e4b5b3f0">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [2]" uuid="4c4d29ec-f75f-45cf-a60b-5cef95c67889">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@localhost:1521:XE</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="identifier.sqlite" uuid="0dfb73db-59a1-4daf-b3b0-1c50a39995f5">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [3]" uuid="b69c32ae-1a65-4acb-9b46-e96bc838e2e0">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://localhost:27017</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [6]" uuid="08ef98cb-3850-44c5-9e1d-c4cc69d3cbc5">
+      <driver-ref>hive</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://localhost:10000</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Apache Derby (Embedded)" uuid="c5108eb4-0060-43ef-a662-084397cdb112">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [5]" uuid="4ad44e00-e72c-468c-a394-2b52b971b49a">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://localhost:9042</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Microsoft SQL Server LocalDB" uuid="a09366ff-56f1-4463-b73c-c40439c68ef5">
+      <driver-ref>sqlserver.localdb.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sqlserver://./</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [4]" uuid="cdaec75c-2685-4688-ade9-3824d9deab55">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@server.redshift.amazonaws.com" uuid="b2ca6cd2-1455-48eb-b407-9d3c6a3e2808">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://server.redshift.amazonaws.com:5439</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [9]" uuid="47e63e41-3f62-4b11-bf99-91993d5c8c35">
+      <driver-ref>couchbase_query</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.intellij.CouchbaseJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:couchbase:localhost:11210</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [21]" uuid="22768665-af11-4ae5-8a12-1eeae0f5b428">
+      <driver-ref>memsql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Athena" uuid="1efe1cf0-133a-45ac-8201-434379edc5a0">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [25]" uuid="55f47b9e-1e95-48a4-ab9f-597e5340e783">
+      <driver-ref>trino</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>io.trino.jdbc.TrinoDriver</jdbc-driver>
+      <jdbc-url>jdbc:trino://localhost:8080</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [12]" uuid="15fdb58c-621b-40a2-b157-f5ff42473b8d">
+      <driver-ref>sybase.jtds</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.sourceforge.jtds.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:jtds:sybase://localhost:5000</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [16]" uuid="d9fa6612-1ac7-4ce1-a5df-b909d388860c">
+      <driver-ref>intersystemsiris</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.intersystems.jdbc.IRISDriver</jdbc-driver>
+      <jdbc-url>jdbc:IRIS://localhost:9091</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@server.sql.azuresynapse.net" uuid="a9b10e69-e798-4a96-9643-b42791a5780a">
+      <driver-ref>synapse.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://server.sql.azuresynapse.net:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="postgres@localhost [2]" uuid="3b10e3ab-5c6a-4923-b9aa-8405c5965346">
+      <driver-ref>greenplum</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Tibero" uuid="81a1915a-fd84-4a60-8347-f279abcb121b">
+      <driver-ref>tibero</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.tmax.tibero.jdbc.TbDriver</jdbc-driver>
+      <jdbc-url>jdbc:tibero:thin:@localhost:8629:</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [13]" uuid="d2abca36-bdd7-4515-978b-b6b7af045f20">
+      <driver-ref>spark</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.hive.jdbc.HiveDriver</jdbc-driver>
+      <jdbc-url>jdbc:hive2://localhost:10000</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [22]" uuid="4295fcfd-daad-401b-bab2-e3c7fa49e78c">
+      <driver-ref>tarantool</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.tarantool.jdbc.SQLDriver</jdbc-driver>
+      <jdbc-url>jdbc:tarantool://localhost:3301</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [18]" uuid="991647c4-9c04-4db1-9729-26a3f2fd8e69">
+      <driver-ref>phoenix.thick</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.phoenix.jdbc.PhoenixDriver</jdbc-driver>
+      <jdbc-url>jdbc:phoenix:localhost</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [19]" uuid="d8097c80-288d-47de-9705-704b29f651ea">
+      <driver-ref>presto</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.facebook.presto.jdbc.PrestoDriver</jdbc-driver>
+      <jdbc-url>jdbc:presto://localhost:8080</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [26]" uuid="fbd56b9d-c0dd-4bf7-b14b-c013072c09a6">
+      <driver-ref>yugabyte</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.yugabyte.Driver</jdbc-driver>
+      <jdbc-url>jdbc:yugabytedb://localhost:5433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [23]" uuid="da3fb5e9-48df-4101-ba69-ef7eac6a5ca2">
+      <driver-ref>teradata</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.teradata.jdbc.TeraDriver</jdbc-driver>
+      <jdbc-url>jdbc:teradata://localhost:6666</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [8]" uuid="13d70c9f-11e4-468a-b6d7-e0187991dc49">
+      <driver-ref>vertica</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.vertica.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:vertica://localhost:5433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [17]" uuid="de2eced0-4338-4110-8fd7-f8219431df21">
+      <driver-ref>openedge</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.ddtek.jdbc.openedge.OpenEdgeDriver</jdbc-driver>
+      <jdbc-url>jdbc:datadirect:openedge://localhost:-1</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [20]" uuid="42aa3539-591b-47cc-af19-018f396d94c7">
+      <driver-ref>hana</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.sap.db.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:sap://localhost</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@server.database.windows.net" uuid="a5a2da8f-5fc6-488f-ba8d-007529fde861">
+      <driver-ref>azure.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://server.database.windows.net:1433</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [11]" uuid="fe0eb28a-26ec-4996-b71b-7843b45308e5">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [15]" uuid="1a05ae2a-e3c1-4276-9bce-d7827eb5ecdf">
+      <driver-ref>firebird</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.firebirdsql.jdbc.FBDriver</jdbc-driver>
+      <jdbc-url>jdbc:firebirdsql://localhost:3050</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Snowflake" uuid="9f139cdb-c5ff-4e2a-9d55-f45c65446120">
+      <driver-ref>snowflake</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>net.snowflake.client.jdbc.SnowflakeDriver</jdbc-driver>
+      <jdbc-url>jdbc:snowflake://:443</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Google Cloud Spanner" uuid="e428e884-5104-4590-8a72-48d0994cb055">
+      <driver-ref>cloudspanner</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.google.cloud.spanner.jdbc.JdbcDriver</jdbc-driver>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [7]" uuid="c97758a8-1aba-4600-9ac3-c77e3063929f">
+      <driver-ref>clickhouse</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>ru.yandex.clickhouse.ClickHouseDriver</jdbc-driver>
+      <jdbc-url>jdbc:clickhouse://localhost:8123</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="HSQLDB (Local)" uuid="d9c847e9-f6b2-46c2-9272-9f9df2b222a1">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [10]" uuid="e71f84cb-6b5b-43d5-9c63-dc05e4edbab2">
+      <driver-ref>db2.11</driver-ref>
+      <jdbc-driver>com.ibm.db2.jcc.DB2Driver</jdbc-driver>
+      <jdbc-url>jdbc:db2://localhost:50000</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [24]" uuid="aa2cc3e5-cd2f-43da-bfc1-74a5ff779cfd">
+      <driver-ref>tidb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Google BigQuery" uuid="038c8283-81f1-4d57-ae1c-b3e4d1c0807d">
+      <driver-ref>bigquery</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.simba.googlebigquery.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:bigquery://https://www.googleapis.com/bigquery/v2:</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Informix" uuid="8925ebdc-e6d3-44d2-9596-564ba09b38c2">
+      <driver-ref>informix</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.informix.jdbc.IfxDriver</jdbc-driver>
+      <jdbc-url>jdbc:informix-sqli://localhost:1526/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="defaultdb@localhost" uuid="ed97d84a-f2ef-4bc6-aae5-21856526d072">
+      <driver-ref>cockroach</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:26257/defaultdb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="default@localhost" uuid="f0513935-6db2-4b09-b6a2-f3b910de1d93">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:tcp://localhost:9092/default</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="Exasol" uuid="37c6f950-ad41-4206-8e40-d8bb4f9be8a8">
+      <driver-ref>exasol</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.exasol.jdbc.EXADriver</jdbc-driver>
+      <jdbc-url>jdbc:exa:localhost:</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [14]" uuid="e7f08457-bb9c-417a-a28a-6625dd77a7b6">
+      <driver-ref>elasticsearch</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.elasticsearch.xpack.sql.jdbc.EsDriver</jdbc-driver>
+      <jdbc-url>jdbc:es://localhost:9200/</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
